@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Token Transfer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Token Transfer</h1>
+    <button id="connectButton">Connect MetaMask</button>
+    <div id="walletAddress"></div>
+    <div class="form">
+      <input type="text" id="recipient" placeholder="Recipient Address">
+      <input type="number" id="amount" placeholder="Amount">
+      <button id="sendButton">Send Tokens</button>
+    </div>
+    <div id="status"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
