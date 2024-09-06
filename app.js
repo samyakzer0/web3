@@ -439,7 +439,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "stateMutability": "nonpayable",
           "type": "function"
         }
-      ]; // Replace with your token contract ABI
+      ]; 
   
       const tokenContract = new web3.eth.Contract(tokenABI, tokenAddress);
   
